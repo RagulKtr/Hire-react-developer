@@ -143,7 +143,7 @@
 }
 .React-JS-Developers-list{
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 .React-JS-Developers-list li{
     font-family: 'Source Sans Pro',sans-serif;
@@ -171,10 +171,9 @@
 
 }
 
-.React-JS-Developers-icon{
-  margin-top: 1.2px;
-  margin-left: 3px; 
-  display: inline;
+
+.React-JS-Developers-button .React-JS-Developers-icon {
+  margin-top: 10px !important; 
 }
 
 
@@ -446,7 +445,8 @@
     display: none;
 }
 .choose-ReactJS-icons{
-  margin: 3px;
+  margin-top: 3.4px;  
+  margin-left: 5px;
   position: absolute;
 }
 @media screen and (max-width: 767px){
@@ -586,7 +586,6 @@
     box-shadow: 0px 0px 4px 0px #00000040;
     border-radius: 20px;
     padding: 20px;
-    
 }
 .Business-Elite-inner-row{
     display: inline-flex;
@@ -619,7 +618,10 @@
     line-height: 22px;
     text-align: left;
     color: #676968;
-    margin-top: 10px;
+    margin-top: 20px;
+}
+.Business-Elite-border{
+  padding-bottom: 2px;
 }
 .mt-border{
     margin-top: 10px !important;
@@ -652,6 +654,7 @@
         font-weight: 400;
         line-height: 22px;
         text-align: left;
+        margin-top: 20px;
     }
     .Business-Elite-inner-row h4{
         font-size: 16px;
@@ -674,7 +677,7 @@
         font-size: 12px;
         font-weight: 400;
         line-height: 20px;
-        margin-top: 5px;
+        margin-top: 10px;
     }
 }
 
@@ -920,7 +923,7 @@
     font-weight: 600;
     line-height: 60.34px;
     text-align: left;
-    padding-top: 40px;
+    padding-top: 60px;
     margin-bottom: 40px;
 }
 .Expertise-ReactJs-Developer-maindiv span{
@@ -932,7 +935,7 @@
     font-weight: 600;
     line-height: 40.22px;
     text-align: left;
-    margin-top: 30px;
+    margin-top: 50px;
 }
 .Expertise-ReactJs-Developer-maindiv h4{
     font-family: 'Source Sans Pro',sans-serif;
@@ -940,7 +943,7 @@
     font-weight: 600;
     line-height: 40.22px;
     text-align: left;
-    margin-top: 40px;
+    margin-top: 50px;
 }
 /* .Expertise-ReactJs-Developer-mobileview span{
     border: 1px dashed #2CA068;
@@ -1593,7 +1596,7 @@
     background: linear-gradient(90deg, #23899C 13.04%, #2CA068 91.03%);
     width: Hug (133px)px;
     height: Fixed (42px)px;
-    padding: 10px 20px 10px 20px;
+    padding: 8px 20px 8px 20px;
     gap: 10px;
     border-radius: 8px;
     opacity: 0px;
@@ -1795,7 +1798,7 @@
     line-height: 20.11px;
     text-align: left;
     color: #2CA068;
-    margin-top: 33px;
+    margin-top: 50px;
   }
   
   .Mobile-App-Development-Technologies-sidelink span{
@@ -2161,6 +2164,11 @@
   
   
   }
+  .about-session-icons{
+    position: absolute;
+    margin-top: 1.18px;
+    margin-left: 3.2px;
+  }
   
   .about_session10_image_dot {
     margin-left: 1084px;
@@ -2176,6 +2184,9 @@
     /* background-color: #23899C; */
   }
 
+  .about-session__profile-dob{
+    margin-top: 2px;
+  }
   
   @media (max-width:768px){
     .about_session10_maindiv {
@@ -3778,7 +3789,7 @@ cursor: pointer;
   @media only screen and (max-width: 768px) {
     .copysymbol {
       margin-top: 20px;
-      font-size: 20px;
+      font-size: 16px;
       padding-right: 2px;
     }
   
