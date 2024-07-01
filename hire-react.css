@@ -628,10 +628,38 @@
 .scrollable1{
     display: none;
 }
+@media (min-width:376px) and (max-width: 425px){
+  .Business-Elite-inner-row h4{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20.11px;
+    text-align: left;
+    margin-top: 15px !important;
+}
+}
+
+@media (width: 320px) {
+  .pwa-spa {
+    margin-top: 0px !important; 
+  }
+  .react-ui-ux {
+    margin-top: 0px !important; 
+  }
+}
+
 
 @media (max-width: 767.98px) {
     .Transform-Your-Business-maindiv{
         margin-top: 50px;
+    }
+    .pwa-spa{
+      margin-top: 15px !important;
+    }
+    .react-ui-ux{
+      margin-top: 15px !important;
+    }
+    .migration{
+      margin-top: 15px !important;
     }
     .scrollable {
         display: none;
@@ -1470,13 +1498,14 @@
   margin-top: 25px;
 }
 
-@media (max-width: 320px){
+@media  (min-width: 300px) and  (max-width: 320px){
   .Fixed-Price-Model-row img{
-    margin-left: -40px;
-    width: 16px;
-    height: 14px;
-    
+    /* margin-left: -10px; */
+    width: 14px !important;
+    height: 14px !important;
+    /* margin-right: 30px; */
   }
+  
 }
 @media (max-width: 768px){
   .Fixed-Price-Model-subheading{
@@ -1525,8 +1554,8 @@
 }
 .Fixed-Price-Model-row img{
   margin-left: -40px;
-  /* width: 19px;
-  height: 15px; */
+  width: 19px;
+  height: 15px;
 }
 .Hire-models-panel p{
   font-size: 14px;
@@ -3748,8 +3777,8 @@
   
   .footer-text1,
   .footer-text2 {
-    font-size: 14px;
-    color: #706E72;
+    font-size: 14px !important;
+    color: #706E72 !important;
   }
   .footer-text2{
     margin-top: 5px;
@@ -3800,8 +3829,8 @@ cursor: pointer;
   @media only screen and (max-width: 768px) {
     .copysymbol {
       margin-top: 20px;
-      font-size: 16px;
-      padding-right: 2px;
+      font-size: 16px !important;
+      padding-right: 2px !important;
     }
   
     .footer h3 {
@@ -3811,12 +3840,12 @@ cursor: pointer;
     }
   
     .footer-menu li {
-      font-size: 14px;
+      font-size: 14px !important;
     }
     .footer-menu li:hover,
     .footer h3:hover {
-      color: #676968 !important;
-      font-weight: 0 !important;
+      color: #000 !important;
+      font-weight: 400 !important;
     }
     .footer-border {
       display: none;
@@ -3831,13 +3860,13 @@ cursor: pointer;
     }
   
     .footer-menu.active {
-      display: block;
+      display: block !important;
       
     }
   
     .footer-line {
-      display: block;
-      border: 1px solid #E9E9E9;
+      display: block !important;
+      border: 1px solid #E9E9E9 !important;
     }
   
     #footer-head i {
@@ -3851,7 +3880,7 @@ cursor: pointer;
     }
   
     .footer-text2 {
-      margin-top: 15px;
+      margin-top: 15px !important;
     }
   }
 
